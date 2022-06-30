@@ -6,11 +6,7 @@ This [GitPod] environment has [Nix] installed and [flakes] enabled.
 
 The environment is quite simple and has just two packages available: `hello` and `cowsay`.
 
-To run the environment in your browser, click on the GitPod button above. Once the environment is ready, open the terminal and enter the flake-provided Nix shell:
-
-```shell
-nix develop --ignore-environment
-```
+To run the environment in your browser, click on the GitPod button above. Once the environment is ready, open the terminal and you'll be automatically dropped into the flake-provided Nix shell.
 
 Then you can see that the flake-provided packages are available. Run the `hello` package:
 
