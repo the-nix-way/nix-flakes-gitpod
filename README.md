@@ -29,6 +29,13 @@ bash-5.1$ cowsay mooooo
                 ||     ||
 ```
 
+## Origins
+
+This config is based on GitPod's [official Nix template][template]. It makes just [one small change][change] to the template to enable [flakes] and also provides a simple [`flake.nix`](./flake.nix) for use in the project.
+
+[change]: https://github.com/the-nix-way/nix-flakes-gitpod/blob/main/.gitpod.yml#L8
 [flakes]: https://nixos.wiki/wiki/Flakes
 [gitpod]: https://gitpod.io
 [nix]: https://nixos.org
+[template]: https://github.com/gitpod-io/template-nix
+
