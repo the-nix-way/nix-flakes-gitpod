@@ -6,7 +6,11 @@ This [GitPod] environment has [Nix] installed and [flakes] enabled.
 
 The environment is quite simple and has just two packages available: `hello` and `cowsay`.
 
-To run the environment in your browser, click on the GitPod button above. Once the environment is ready, open the terminal and you'll be automatically dropped into the flake-provided Nix shell.
+To run the environment in your browser, click on the GitPod button above. Once the environment is ready, open the terminal in Visual Studio Code. To use the shell environment provided by the [`flake.nix`](./flake.nix):
+
+```shell
+nix develop
+```
 
 Then you can see that the flake-provided packages are available. Run the `hello` package:
 
@@ -42,4 +46,3 @@ Like GitPod's original, you can use this repo as a template by clicking on **Use
 [gitpod]: https://gitpod.io
 [nix]: https://nixos.org
 [template]: https://github.com/gitpod-io/template-nix
-
