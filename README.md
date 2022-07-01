@@ -1,4 +1,4 @@
-# Nix flakes on GitPod
+# Nix with flakes enabled on GitPod
 
 This [GitPod] environment has [Nix] installed and [flakes] enabled.
 
