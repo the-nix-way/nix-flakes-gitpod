@@ -1,5 +1,7 @@
 # Nix with flakes enabled on GitPod
 
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
 This [GitPod] environment has [Nix] installed and [flakes] enabled.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/the-nix-way/nix-flakes-gitpod)
